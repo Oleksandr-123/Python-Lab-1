@@ -1,0 +1,18 @@
+a = int(input("Введіть a: "))
+while a < 1 or a > 100:
+    print("a має бути від 1 до 100")
+    a = int(input("Введіть a ще раз: "))
+
+b = int(input("Введіть b: "))
+while b < 1 or b > 100:
+    print("b має бути від 1 до 100")
+    b = int(input("Введіть b ще раз: "))
+
+if a < b:
+    x = (a * 3 - 5) / b
+elif a == b:
+    x = -4
+else:
+    x = (a**4 + b) / a
+
+print("Результат обчислення X =", x)
