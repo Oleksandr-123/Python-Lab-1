@@ -1,0 +1,9 @@
+N = int(input("Введіть N: "))
+
+for i in range(1, N+1):
+    # пробіли зліва
+    print(" " * (N - i), end="")
+    # числа від N-i+1 до N
+    for j in range(N-i+1, N+1):
+        print(j, end="")
+    print()
