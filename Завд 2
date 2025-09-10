@@ -1,0 +1,14 @@
+n = 1
+print(n, n*n, n*n*n)
+
+n = 3
+print(n, n*n, n*n*n)
+
+n = 5
+print(n, n*n, n*n*n)
+
+n = 9
+print(n, n*n, n*n*n)
+
+n = 17
+print(n, n*n, n*n*n)
